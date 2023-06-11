@@ -33,7 +33,7 @@ printf  "\n"
 
 
 
-wget "https://github.com/radkesvat/FakeTlsTunnel/releases/download/V10/v10_linux_amd64.zip" -O v10_linux_amd64.zip
+wget "https://github.com/radkesvat/FakeTlsTunnel/releases/download/V9/v9_linux_amd64.zip" -O v10_linux_amd64.zip
 unzip -o v10_linux_amd64.zip
 chmod +x FTT
 rm v10_linux_amd64.zip
