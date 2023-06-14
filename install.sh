@@ -2,7 +2,6 @@ if [ "$EUID" -ne 0 ]
   then echo "Please run as root"
   exit
 fi
-echo nameserver 8.8.8.8 | sudo tee /etc/resolv.conf
 
 apt-get update -y
 
