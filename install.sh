@@ -3,7 +3,7 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 echo nameserver 8.8.8.8 | sudo tee /etc/resolv.conf
-apt-get update -y
+
 
 REQUIRED_PKG="unzip"
 PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
